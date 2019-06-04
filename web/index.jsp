@@ -154,7 +154,7 @@
             	<div class="middle_right1Rtitle"> </div>
                 <div class="middle_right1Rcon">
                    <ul>
-                		<%for(int i = 0; i < newsList.size(); i++){ 
+                		<%for(int i = 0; i < newsList.size(); i++){
                 		News news = new News();
                 		news = newsList.get(i);
                 		%>
