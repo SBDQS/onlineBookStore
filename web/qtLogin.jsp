@@ -1,12 +1,11 @@
 <%--用户登陆系统的界面--%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
-<%--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--%>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 
-<title>易购网 － 网站登录</title>
+<title>易购网 －ddd 网站登录</title>
 <link href="css/front/coupon_register.css" rel="stylesheet" type="text/css" />
 <link href="css/front/common.css" rel="stylesheet" type="text/css" />
 <link href="css/front/css.css" rel="stylesheet" type="text/css" />
@@ -26,7 +25,7 @@
         errorMsg.className='color_1';
 	   }
 	}
-	
+	//检查用户名
 	function checkUserName(){
 		var result=true;
 		var errorMsg = document.getElementById("errorMsg");
@@ -85,11 +84,16 @@
 		}
     }
 </script>
+
+
+
 </head>
 
 <body>
 <div class="full">
-  <div class="t_Top">
+
+
+    <div class="t_Top">
 	  	<div align="center" class="divcss5" style=" font-size:40px; margin-top:20px">网上图书商城前台登录</div>
 		<div class="n_dl_r">
 		<a href="<%=request.getContextPath()%>/QtLoginServlet" class="color_56">登录</a> <span class="color_55">|</span> 
